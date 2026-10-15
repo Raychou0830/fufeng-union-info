@@ -1,0 +1,14 @@
+[
+  {
+    "source": "content/public-files/movie-plan-2026.pdf",
+    "file": "movie-plan-2026.pdf",
+    "public": true,
+    "sha256": "efcf20910b6c588db9252bf64caff00ec84843bafde2983fba9b1667b824e4f8"
+  },
+  {
+    "source": "content/public-files/family-hike-plan-2026.pdf",
+    "file": "family-hike-plan-2026.pdf",
+    "public": true,
+    "sha256": "0f74cbeb80d397e88bbd0ed164e994edd3c83392c89cb4b74a1b913272b4d51c"
+  }
+]

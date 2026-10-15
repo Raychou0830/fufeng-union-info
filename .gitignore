@@ -1,0 +1,12 @@
+dist/
+tmp/
+.work/
+待確認清單.md
+node_modules/
+收到的訊息/
+收到的公文或活動資訊/
+.impeccable/
+DESIGN.md
+PRODUCT.md
+設計稿說明.md
+.DS_Store
