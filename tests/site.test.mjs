@@ -59,7 +59,7 @@ test('September travel redemption stays archived despite later travel dates',()=
   assert.doesNotMatch(filterWelfare(data,'全部','易遊網',now).html,/eztravel-member-day-20260915/);
   assert.match(renderArchive(data,new URLSearchParams('kind=benefit'),now),/易遊網企業會員日/);
   assert.match(renderSearch(data,new URLSearchParams('q=易遊網'),now),/優惠已到期/);
-  assert.doesNotMatch(JSON.stringify(data),/BNEU18|B2E300|B2E500|B2E008|B2E100|B2ETHSR100|B2E002/);
+  assert.doesNotMatch(JSON.stringify(data),/\b(?:BNEU\d+|B2E[A-Z0-9]+)\b/);
 });
 test('closed LINE applications stay archived while the service period continues',()=>{
   const now=new Date('2026-10-15T12:00:00+08:00'),line=data.benefits.find(b=>b.id==='line-official-account-2026');
@@ -70,10 +70,24 @@ test('closed LINE applications stay archived while the service period continues'
 });
 test('general eztravel validity does not extend the September member-day codes',()=>{
   const now=new Date('2026-10-15T12:00:00+08:00'),ez=data.benefits.find(b=>b.id==='eztravel-hsr-group');
-  assert.equal(ez.expiresAt,'2026-10-31');assert.equal(filterWelfare(data,'旅遊','易遊網',now).count,1);
+  assert.equal(ez.expiresAt,'2026-10-31');assert.equal(filterWelfare(data,'旅遊','易遊網',now).count,2);
   assert.equal(benefitState(ez,new Date('2026-10-31T23:59:59+08:00')).archive,false);
   assert.equal(benefitState(ez,new Date('2026-11-01T00:00:00+08:00')).archive,true);
   assert.equal(data.posts.find(p=>p.id==='new-member-offer-2026').date,'2026-09-06');
+});
+test('October member-day coupons archive at Taipei midnight, not the travel or general benefit deadline',()=>{
+  const id='eztravel-member-day-20261015',benefit=data.benefits.find(b=>b.id===id);
+  const last=new Date('2026-10-15T23:59:59.999+08:00'),cutoff=new Date('2026-10-16T00:00:00+08:00');
+  assert.equal(benefit.expiresAt,'2026-10-15');
+  assert.match(renderBenefit(data,id,last),/2026\/10\/15–12\/31/);
+  assert.equal(benefitState(benefit,last).archive,false);
+  assert.match(filterWelfare(data,'旅遊','易遊網',last).html,new RegExp(id));
+  assert.match(renderHome(data,last),new RegExp(id));
+  assert.equal(benefitState(benefit,cutoff).archive,true);
+  assert.doesNotMatch(filterWelfare(data,'旅遊','易遊網',cutoff).html,new RegExp(id));
+  assert.doesNotMatch(renderHome(data,cutoff),new RegExp(id));
+  assert.match(renderArchive(data,new URLSearchParams('kind=benefit'),cutoff),new RegExp(id));
+  assert.equal(benefitState(data.benefits.find(b=>b.id==='eztravel-hsr-group'),cutoff).archive,false);
 });
 test('earlier sources merge into one film story and the current rest-rights progression',()=>{
   assert.equal(data.posts.filter(p=>p.id==='teachers-day-film-response-2026').length,1);
