@@ -22,6 +22,8 @@
 
 ## 發布邊界
 
+2026-10-15使用者已確認會員通訊版目前內容與介面，指定建立公開儲存庫 `Raychou0830/fufeng-union-info` 並發布。origin 為 https://github.com/Raychou0830/fufeng-union-info.git，主分支 main；Pages 網址 https://raychou0830.github.io/fufeng-union-info/。此次授權涵蓋首次上傳與部署，日後更新仍先供使用者審閱確認，再手動發布。
+
 - `web/` 與 `content/` 是網站來源；`dist/` 是唯一發布目錄。來源資料夾、.work、設計稿、審查資料與工具不可當網站根目錄提供。
 - GitHub Pages workflow 僅以 workflow_dispatch 手動觸發。使用者確認這一版內容及目標儲存庫後才推送或觸發發布。
 - 不儲存 GitHub token、登入憑證或會員名單在專案及前端。

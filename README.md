@@ -1,6 +1,9 @@
 # 桃園市教育產業工會-福豐國中分會 資訊福利站
 
-給會員從 LINE 開啟、快速看重點與查福利的公開靜態網站。採使用者核准的「會員通訊」介面：一則重點導讀，接續青綠福利、暖橘活動、靛藍新聞三區。目前為可審閱的本機版本，尚未發布。
+給會員從 LINE 開啟、快速看重點與查福利的公開靜態網站。採使用者核准的「會員通訊」介面：一則重點導讀，接續青綠福利、暖橘活動、靛藍新聞三區。已上傳 GitHub，透過手動 GitHub Actions 發布。
+
+- 會員網站：https://raychou0830.github.io/fufeng-union-info/
+- 原始碼：https://github.com/Raychou0830/fufeng-union-info
 
 ## 本機預覽
 
@@ -55,10 +58,10 @@ Codex 會先執行收件盤點，再閱讀、分類與摘要。`scripts/inbox.mj
 
 ## GitHub Pages 發布
 
-尚未設定 Git 遠端或儲存庫，不會自行建立或公開資料。確認內容後：
+已設定公開儲存庫 `Raychou0830/fufeng-union-info`，Pages Source 為 GitHub Actions；原始收件、內部待確認清單、設計稿與審查證據留在本機。日後更新先審閱內容，確認後：
 
-1. 指定要使用的 GitHub 儲存庫；提交網站來源，原始收到資料夾已由 .gitignore 排除。
-2. 儲存庫 Settings → Pages → Source 選擇 GitHub Actions。
+1. 提交核准的網站變更並推送 `main`；私有原始資料已由 .gitignore 排除。
+2. 前往儲存庫的 Actions 頁面。
 3. 在 Actions 手動執行「Publish approved site to GitHub Pages」。Workflow 先建置、驗證及測試，再只上傳 dist/。
 4. 成功後以 workflow 回傳的網址檢查首頁、分享連結與 PDF。
 
