@@ -95,6 +95,28 @@ test('earlier sources merge into one film story and the current rest-rights prog
   const rest=renderPost(data,'rest-rights-notice');assert.match(rest,/9月29日轉知各校/);assert.match(rest,/9月10日/);
   assert.equal(data.site.featuredPost,'offline-rights-draft');
 });
+test('October 19 updates keep the completed movie and preschool advocacy clearly attributed',()=>{
+  const recap=data.posts.find(p=>p.id==='digger-film-workshop-recap');
+  const preschool=data.posts.find(p=>p.id==='early-childhood-working-conditions-2026');
+  assert.equal(data.site.updatedAt,'2026-10-19');
+  assert.equal(recap.relatedEvent,'movie-2026');
+  assert.match(renderPost(data,recap.id),/活動成果・已完成/);
+  assert.match(renderPost(data,recap.id),/18WhjhbaF7/);
+  assert.equal(movie.updatedAt,'2026-10-19');
+  assert.equal(movie.history.at(-1).date,'2026-10-19');
+  assert.match(renderEvent(data,movie.id,new Date('2026-10-19T12:00:00+08:00')),/活動已完成/);
+  assert.match(renderPost(data,preschool.id),/全教產新聞稿・工會主張/);
+  assert.match(renderPost(data,preschool.id),/以教育部及主管機關正式公告為準/);
+  assert.match(renderPost(data,preschool.id),/1M1etG5rKg/);
+});
+test('youth safety article protects identities and distinguishes source claims from final findings',()=>{
+  const id='zhongli-youth-safety-network-2026',html=renderPost(data,id);
+  assert.match(html,/事件追蹤・工會倡議/);
+  assert.match(html,/來源貼文所述進度/);
+  assert.match(html,/以主管機關與司法正式資訊為準/);
+  assert.match(html,/19bLRwAKGT/);
+  assert.doesNotMatch(html,/受害者學校校名|5位媽媽|1位大伯/);
+});
 test('history includes the ended hike but no future movie',()=>{
   const now=new Date('2026-10-15T04:00:00Z'),html=renderArchive(data,new URLSearchParams('kind=event'),now);
   assert.match(html,/陽光親子928健行/);assert.doesNotMatch(html,/挖掘者/);
