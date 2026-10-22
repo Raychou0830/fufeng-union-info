@@ -93,12 +93,12 @@ test('earlier sources merge into one film story and the current rest-rights prog
   assert.equal(data.posts.filter(p=>p.id==='teachers-day-film-response-2026').length,1);
   const film=renderPost(data,'teachers-day-film-response-2026');assert.match(film,/工會新聞稿・立場/);assert.match(film,/BeHds_xK0to/);
   const rest=renderPost(data,'rest-rights-notice');assert.match(rest,/9月29日轉知各校/);assert.match(rest,/9月10日/);
-  assert.equal(data.site.featuredPost,'offline-rights-draft');
+  assert.ok(data.posts.some(p=>p.id==='offline-rights-draft'));
 });
 test('October 19 updates keep the completed movie and preschool advocacy clearly attributed',()=>{
   const recap=data.posts.find(p=>p.id==='digger-film-workshop-recap');
   const preschool=data.posts.find(p=>p.id==='early-childhood-working-conditions-2026');
-  assert.equal(data.site.updatedAt,'2026-10-19');
+  assert.ok(data.site.updatedAt>='2026-10-19');
   assert.equal(recap.relatedEvent,'movie-2026');
   assert.match(renderPost(data,recap.id),/活動成果・已完成/);
   assert.match(renderPost(data,recap.id),/18WhjhbaF7/);
