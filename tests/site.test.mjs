@@ -78,14 +78,15 @@ test('general eztravel validity does not extend the September member-day codes',
 test('October member-day coupons archive at Taipei midnight, not the travel or general benefit deadline',()=>{
   const id='eztravel-member-day-20261015',benefit=data.benefits.find(b=>b.id===id);
   const last=new Date('2026-10-15T23:59:59.999+08:00'),cutoff=new Date('2026-10-16T00:00:00+08:00');
+  const homeEdition={...data,benefits:[benefit,data.benefits.find(b=>b.id==='take-a-smile')]};
   assert.equal(benefit.expiresAt,'2026-10-15');
   assert.match(renderBenefit(data,id,last),/2026\/10\/15–12\/31/);
   assert.equal(benefitState(benefit,last).archive,false);
   assert.match(filterWelfare(data,'旅遊','易遊網',last).html,new RegExp(id));
-  assert.match(renderHome(data,last),new RegExp(id));
+  assert.match(renderHome(homeEdition,last),new RegExp(id));
   assert.equal(benefitState(benefit,cutoff).archive,true);
   assert.doesNotMatch(filterWelfare(data,'旅遊','易遊網',cutoff).html,new RegExp(id));
-  assert.doesNotMatch(renderHome(data,cutoff),new RegExp(id));
+  assert.doesNotMatch(renderHome(homeEdition,cutoff),new RegExp(id));
   assert.match(renderArchive(data,new URLSearchParams('kind=benefit'),cutoff),new RegExp(id));
   assert.equal(benefitState(data.benefits.find(b=>b.id==='eztravel-hsr-group'),cutoff).archive,false);
 });
@@ -132,9 +133,13 @@ test('built homepage contains all three reading sections before JavaScript runs'
   assert.doesNotMatch(html,/\{\{UPDATED_/);
 });
 test('benefit filters and Unicode search behave together',()=>{
-  assert.equal(filterWelfare(data,'餐飲','',new Date('2026-10-15')).count,2);
-  assert.equal(filterWelfare(data,'交通','高鐵',new Date('2026-10-15')).count,1);
-  assert.equal(filterWelfare(data,'餐飲','不存在',new Date('2026-10-15')).count,0);
+  const date=new Date('2026-10-15T12:00:00+08:00');
+  const food=filterWelfare(data,'餐飲','ＣＯＬＯＲ',date);
+  assert.equal(food.count,1);
+  assert.match(food.html,/#\/benefit\/colorbowl/);
+  assert.equal(filterWelfare(data,'交通','ＣＯＬＯＲ',date).count,0);
+  assert.equal(filterWelfare(data,'交通','高鐵',date).count,1);
+  assert.equal(filterWelfare(data,'餐飲','不存在',date).count,0);
   assert.equal(textMatch({title:'Colorbowl'},'ＣＯＬＯＲ'),true);
 });
 test('source text and URLs cannot inject markup or executable links',()=>{

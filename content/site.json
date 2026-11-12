@@ -4,8 +4,8 @@
     "union": "桃園市教育產業工會",
     "branch": "福豐國中分會",
     "name": "資訊福利站",
-    "updatedAt": "2026-11-02",
-    "featuredPost": "teacher-workplace-protection-2026",
+    "updatedAt": "2026-11-12",
+    "featuredPost": "taoyuan-teacher-staffing-homeroom-reduction-116",
     "maintainer": "福豐國中分會聯絡人",
     "description": "給福豐分會會員的資訊導讀：快速看重點、查福利、找活動與公文。",
     "officialWelfare": [
@@ -20,6 +20,117 @@
     ]
   },
   "posts": [
+    {
+      "id": "taoyuan-teacher-staffing-homeroom-reduction-116",
+      "type": "rights",
+      "title": "桃園116學年度增教師員額，導師每週減授1節",
+      "date": "2026-11-11",
+      "summary": "桃園市府宣布自116學年度起提高國中小教師員額，高中及以下學校導師每週減授1節。依桃教產公告，國中導師調整為國文10節、其他科12節。",
+      "relevance": "桃園市國中小教師、高中及以下學校導師，以及負責員額與課務編排的行政同仁。",
+      "action": "留意116學年度員額配置與課務安排。桃教產持續爭取提高員額，並將幼兒園教師與教保員納入午餐補助。",
+      "statusLabel": "桃園市府公告・116學年度起實施",
+      "sections": [
+        {
+          "heading": "國中小教師員額調升",
+          "text": "桃園市政府9月22日公告，116學年度起，國小由每班1.65名教師提高至1.7名，預估增加237名；國中由每9班增置1名改為每7班增置1名，預估增加70名。"
+        },
+        {
+          "heading": "高中及以下學校導師每週減授1節",
+          "text": "依桃教產11月11日整理，調整後國小導師每週15節；國中導師國文10節、其他科12節；高中導師國文9節、其他科11節。"
+        },
+        {
+          "heading": "桃教產後續爭取事項",
+          "text": "桃教產7月3日在教育審議委員會提出提高員額及導師減課。工會原建議國小至少每班1.75人並逐步提高，國中則調高每班員額或提高增置頻率。桃教產肯定市府回應，並將繼續爭取提高國中小教師員額，以及讓幼兒園教師與教保員也能獲得午餐補助。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "桃教產11/11公告（Facebook）",
+          "url": "https://www.facebook.com/share/p/18q49PNn2B/"
+        },
+        {
+          "label": "桃園市政府9/22市政新聞",
+          "url": "https://news.tycg.gov.tw/News_Content.aspx?n=5016&s=1878121"
+        }
+      ]
+    },
+    {
+      "id": "taoyuan-schoolwide-makeup-leave-natural-disasters",
+      "type": "document",
+      "title": "校慶補假遇天災停班停課，桃園可另擇日統一補假",
+      "date": "2026-11-05",
+      "documentNumber": "桃教高字第1150103239號",
+      "summary": "桃園市教育局發函，原訂全校性活動補假日遇天然災害停班停課，全校師生得自恢復正常上班上課日起一個月內另擇日統一補假。",
+      "relevance": "桃園市利用假日或非上班時間辦理校慶、運動會等全校性活動的學校及全校師生。",
+      "action": "請依各校公告的統一補假日辦理。遇特殊情形，學校應依函報教育局權責科室核備；有疑義可依函文說明六洽詢。",
+      "statusLabel": "桃園市教育局函・補假規範",
+      "sections": [
+        {
+          "heading": "全校性活動如何補假",
+          "text": "桃園市教育局115年11月5日以桃教高字第1150103239號函統一補假原則。假日或非上班時間辦理全校性活動，全校師生得在一週內擇日統一補假；原訂補假日遇天然災害停班停課，得從正常上班上課日起一個月內另選一日，全校統一補假。"
+        },
+        {
+          "heading": "校長核處與特殊情形",
+          "text": "教育局授權校長依函自行核處，一般情形免報教育局核備。遇特殊情形，學校應函報教育局，由相關權責科室核備。全校統一補假以每學年三次為原則；因校務需要超過三次，須先經家長會同意。"
+        },
+        {
+          "heading": "桃教產反映補假權益",
+          "text": "部分學校將10月23日排為校慶或運動會補假，當天遇颱風停班停課。桃教產接獲校方及會員教師反映後向教育局陳情，教育局召集相關科室研商後發函。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "桃教產11/5補假說明（Facebook）",
+          "url": "https://www.facebook.com/share/p/1EqXF97KiP/"
+        },
+        {
+          "label": "教育局1150103239號函內容（凌雲國中人事室）",
+          "url": "https://www.lyjh.tyc.edu.tw/modules/school/index.php?content_id=398&department_id=6&from_op=school_department_show&page_id=58&type=news&zone_id=0"
+        }
+      ]
+    },
+    {
+      "id": "teacher-student-discipline-union-proposals-2026",
+      "type": "rights",
+      "title": "教師輔導管教：全教產籲明定權責、廢除校事會議",
+      "date": "2026-11-05",
+      "summary": "全教產呼籲提升輔導管教注意事項的法律位階，明定教師管教權限、學生守規義務與家長配合責任，並主張廢除校事會議。",
+      "relevance": "導師、任課教師、學務及輔導人員可掌握現行規範與工會的制度改革主張。",
+      "action": "查閱校內輔導管教辦法與教育部規範，並閱讀全教產新聞稿了解其修法與制度改革訴求。",
+      "statusLabel": "全教產新聞稿・工會主張",
+      "sections": [
+        {
+          "heading": "現行規範與一般管教措施",
+          "text": "教育部注意事項第21點規定，學生有違反法令或依合法程序制定的校規、危害校園安全或妨害正常教學等情形時，學校及教師應給予適當輔導或管教。第23點列出一般管教措施，例如口頭糾正、調整座位及要求完成作業。家長參與教育事務辦法第4條也規範家長輔導管教子女、配合學校教學等責任。"
+        },
+        {
+          "heading": "10/7修正的案件結案規定",
+          "text": "教育部修正教師解聘不續聘停聘或資遣辦法第8條。學校接獲檢舉，教師行為顯屬第4條所定不予處罰的情形，或符合學校依教師法訂定的輔導管教辦法時，學校應結案，並自接獲檢舉之日起20日內以書面向檢舉人說明理由。"
+        },
+        {
+          "heading": "全教產的改革主張",
+          "text": "全教產指出，管教爭議、反覆檢舉與校園暴力會影響教學，並呼籲提供特教專業支持及校園安全配套。工會主張廢除校事會議、提高注意事項法律位階、明定學生守規與家長配合責任，以及研議家長未履行責任的罰則。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "全教產11/5新聞稿（桃教產Facebook）",
+          "url": "https://www.facebook.com/share/p/1E314sXVHk/"
+        },
+        {
+          "label": "教育部輔導與管教學生辦法注意事項",
+          "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147"
+        },
+        {
+          "label": "行政院公報10/7修正第8條",
+          "url": "https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg032186/ch05/type1/gov40/num7/Eg.htm"
+        },
+        {
+          "label": "國民教育階段家長參與教育事務辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=H0070029"
+        }
+      ]
+    },
     {
       "id": "teacher-workplace-protection-2026",
       "type": "rights",
@@ -929,6 +1040,452 @@
   ],
   "benefits": [
     {
+      "id": "mr-sesame-sogo-202611",
+      "title": "芝麻先生｜忠孝SOGO快閃",
+      "category": "餐飲",
+      "date": "2026-11-12",
+      "expiresAt": "2026-11-17",
+      "verifiedAt": "2026-11-12",
+      "validityLabel": "快閃優惠至 ",
+      "eligibility": "有意到櫃選購的會員",
+      "sources": [
+        {
+          "label": "桃教產特約公告",
+          "url": "https://teu.org.tw/welfare_detail.php?welfare_id=271"
+        }
+      ],
+      "highlight": "忠孝SOGO 12樓・11/17止",
+      "summary": "11/5至11/17於台北忠孝SOGO 12樓百貨週年慶設櫃，主打芝麻胜肽果蔬精華醱酵液及現場優惠。",
+      "how": "活動期間至忠孝SOGO 12樓芝麻先生櫃位洽詢。",
+      "conditions": [
+        "快閃品項與優惠依現場公告。"
+      ]
+    },
+    {
+      "id": "volvo-teu-202611",
+      "title": "VOLVO｜11月試駕與購車活動",
+      "category": "交通",
+      "date": "2026-11-12",
+      "expiresAt": "2026-11-30",
+      "verifiedAt": "2026-11-12",
+      "validityLabel": "試駕活動至 ",
+      "eligibility": "桃教產適用會員本人、配偶及直系親屬",
+      "sources": [
+        {
+          "label": "桃教產特約公告",
+          "url": "https://teu.org.tw/welfare_detail.php?welfare_id=189"
+        }
+      ],
+      "highlight": "11月完成試駕贈保溫杯",
+      "summary": "凱桃汽車11月企業專案提供預約試駕、舊車估價及財務方案。完成試駕可獲贈經典保溫杯，數量有限。",
+      "how": "依桃教產原公告的預約方式向凱桃汽車預約，在11/30前完成試駕。",
+      "conditions": [
+        "企業試駕贈禮期間為11/1至11/30，贈完為止。",
+        "下列車款資訊整理自原公告的購車DM。適用車型、領牌或交車條件及實際專案內容請向凱桃汽車確認。"
+      ],
+      "sections": [
+        {
+          "heading": "EX90、EX30",
+          "text": "EX90 建議售價298萬元起，上市期 PLUS 車型可加價3萬元升級雙前座冷熱通風座椅。EX30 建議售價139.9萬元起，DM列有家用充電樁與3萬元充電金贈禮。"
+        },
+        {
+          "heading": "EC40、EX40、XC40",
+          "text": "EC40 與 EX40 的DM均列有72期分期方案，月付19,888元起。XC40 於11月底前領牌，DM標示現金優惠價159.8萬元。"
+        },
+        {
+          "heading": "V60、XC60、XC90",
+          "text": "V60 與 XC90 的DM均列120萬元40期零利率方案，另列1年乙式全險及第4年延長保固。XC60 的DM列有當月購車升級抬頭顯示介面。"
+        }
+      ]
+    },
+    {
+      "id": "everfun-travel-teu",
+      "title": "長汎假期旅行社｜桃教產特約",
+      "category": "旅遊",
+      "date": "2026-11-12",
+      "expiresAt": "2027-12-31",
+      "verifiedAt": "2026-11-12",
+      "validityLabel": "契約期限至 ",
+      "eligibility": "桃教產會員，眷屬及親友由會員代為報名",
+      "sources": [
+        {
+          "label": "桃教產特約公告",
+          "url": "https://teu.org.tw/welfare_detail.php?welfare_id=297"
+        },
+        {
+          "label": "長汎假期官網",
+          "url": "https://www.everfuntravel.com/"
+        }
+      ],
+      "highlight": "指定團體旅遊每人折300–1,000元",
+      "summary": "桃教產會員報名指定團體旅遊可依目的地折抵團費，另有立榮假期及長榮假期線上預訂優惠。",
+      "how": "從長汎假期官網挑選路線後，向桃教產原公告的指定窗口洽詢並確認會員優惠。",
+      "conditions": [
+        "指定團體旅遊每人折抵：歐洲、美加、紐西蘭各1,000元，澳洲500元，東南亞、東北亞、大陸、港澳各300元。",
+        "折抵限團費售價。稅金、燃油附加費、機場稅、小費、簽證、護照新辦及機場接送等費用不列入折抵。",
+        "行銷特惠案、團體自由行、清艙特價團及專案團體等不適用。個人自由行及機票優惠依個別報價。",
+        "立榮假期、長榮假期折扣碼各限300組，適用官網線上預訂的即訂即開商品。折扣碼可查各工會的原公告，公告列至2027年底，並須每年確認。"
+      ]
+    },
+    {
+      "id": "bioes-group-buy-teu",
+      "title": "囍瑞｜桃教產專屬團購",
+      "category": "餐飲",
+      "date": "2026-11-12",
+      "expiresAt": "2027-12-31",
+      "verifiedAt": "2026-11-12",
+      "validityLabel": "契約期限至 ",
+      "eligibility": "桃教產會員",
+      "sources": [
+        {
+          "label": "桃教產特約公告",
+          "url": "https://teu.org.tw/welfare_detail.php?welfare_id=298"
+        },
+        {
+          "label": "囍瑞團購頁",
+          "url": "https://gbf.tw/zmdle"
+        }
+      ],
+      "highlight": "專屬團購價・滿1,000元免運",
+      "summary": "桃教產會員可從指定團購頁選購囍瑞果汁、橄欖油等商品。",
+      "how": "由桃教產特約公告進入指定團購頁，依頁面價格與下單方式購買。",
+      "conditions": [
+        "指定團購頁全館滿1,000元免運，品項與價格以團購頁為準。"
+      ]
+    },
+    {
+      "id": "naruwan-hotels-teu",
+      "title": "娜路彎大酒店｜台東四館住房優惠",
+      "category": "旅遊",
+      "date": "2026-11-12",
+      "expiresAt": "2027-12-31",
+      "verifiedAt": "2026-11-12",
+      "validityLabel": "契約期限至 ",
+      "eligibility": "桃教產會員",
+      "sources": [
+        {
+          "label": "桃教產特約公告",
+          "url": "https://teu.org.tw/welfare_detail.php?welfare_id=299"
+        },
+        {
+          "label": "娜路彎飯店官網",
+          "url": "https://www.naruwan-hotel.com.tw/tw_new/index.html"
+        }
+      ],
+      "highlight": "雙人房平日2,520元起",
+      "summary": "桃教產會員憑卡可洽台東娜路彎大酒店、銀河酒店、會館與花園酒店的特約房價。",
+      "how": "訂房時先確認館別、入住日及特約房型，依飯店指示出示會員卡。",
+      "conditions": [
+        "以下每列依序為平日、旺日、假日、旺假日，每房新台幣。日期分類、房況與實際收費請向飯店確認。",
+        "農曆春節房價依定價。原價目表標示春節2/04–09不適用，訂房時請確認當年度適用日期。"
+      ],
+      "sections": [
+        {
+          "heading": "娜路彎大酒店｜台東市連航路66號",
+          "text": "新豪華雙人房4,230／4,830／5,730／6,730元。新豪華四人房5,490／6,090／6,990／7,990元。依房型提供自助式早餐，另附中庭自助晚餐550元抵用券，抵用須兩人成行。"
+        },
+        {
+          "heading": "娜路彎銀河酒店｜台東市豐興路66號",
+          "text": "豪華雙人房2,880／3,480／4,380／5,380元。豪華四人房3,780／4,380／5,280／6,280元。報價含稅、服務費、早餐及游泳池與泡湯設施。"
+        },
+        {
+          "heading": "娜路彎會館｜台東市中興路二段385號",
+          "text": "精緻二人房2,520／2,820／3,320／4,520元。精緻四人房3,420／3,720／4,220／5,420元。報價含稅、服務費與早餐，晚餐抵用券須至娜路彎大酒店使用。"
+        },
+        {
+          "heading": "娜路彎花園酒店｜台東市新興路77號",
+          "text": "豪華雙人房2,520／2,820／3,320／4,520元。豪華四人房3,420／3,720／4,220／5,420元。報價含稅、服務費、早餐及泡湯設施。"
+        }
+      ]
+    },
+    {
+      "id": "fengze-clinics-teu",
+      "title": "風澤中醫｜特約院所掛號優惠",
+      "category": "生活服務",
+      "date": "2026-11-12",
+      "expiresAt": "2027-12-31",
+      "verifiedAt": "2026-11-12",
+      "validityLabel": "契約期限至 ",
+      "eligibility": "桃教產會員",
+      "sources": [
+        {
+          "label": "桃教產特約公告",
+          "url": "https://teu.org.tw/welfare_detail.php?welfare_id=264"
+        }
+      ],
+      "highlight": "憑卡當次掛號減50元",
+      "summary": "桃教產會員在公告所列特約院所出示會員卡，當次掛號減免50元。",
+      "how": "到特約院所掛號時出示會員卡，完整適用院所請查桃教產原公告。",
+      "conditions": [
+        "新增內壢莊敬風澤中醫診所（中壢區莊敬路202號）與桃鶯大智風澤中醫診所（桃園區桃鶯路384-4號）。"
+      ]
+    },
+    {
+      "id": "mr-sesame-teu",
+      "title": "芝麻先生｜桃教產會員訂購優惠",
+      "category": "餐飲",
+      "date": "2026-11-12",
+      "expiresAt": "2026-12-31",
+      "verifiedAt": "2026-11-12",
+      "validityLabel": "契約期限至 ",
+      "eligibility": "桃教產會員",
+      "sources": [
+        {
+          "label": "桃教產特約公告",
+          "url": "https://teu.org.tw/welfare_detail.php?welfare_id=271"
+        },
+        {
+          "label": "芝麻先生官網",
+          "url": "https://www.mrsesame.com.tw/"
+        }
+      ],
+      "highlight": "會員9折・滿1,000元免運",
+      "summary": "持115年桃教產會員卡到店訂購，或透過芝麻先生官方LINE訂購，享9折及滿1,000元免運。",
+      "how": "到店出示115年會員卡，或向品牌官方LINE提供115年會員卡圖片辦理。",
+      "conditions": [
+        "適用通路為到店訂購及品牌官方LINE訂購。"
+      ]
+    },
+    {
+      "id": "msig-mingtai-teu-2026-q4",
+      "title": "明台產險｜桃教產會員與眷屬投保抽獎",
+      "category": "生活服務",
+      "date": "2026-11-12",
+      "expiresAt": "2026-12-31",
+      "verifiedAt": "2026-11-12",
+      "validityLabel": "活動期限至 ",
+      "eligibility": "桃教產會員及其眷屬",
+      "sources": [
+        {
+          "label": "桃教產特約公告",
+          "url": "https://teu.org.tw/welfare_detail.php?welfare_id=246"
+        },
+        {
+          "label": "明台產險官網",
+          "url": "https://www.msig-mingtai.com.tw/"
+        }
+      ],
+      "highlight": "指定網路投保可參加抽獎",
+      "summary": "桃教產會員與眷屬於10/1至12/31依專案方式線上投保指定險種並核保成功，可抽300元下午茶組即享券，共5名。",
+      "how": "由桃教產原公告進入明台活動詳情，確認專案代碼及條件，再透過明台官網完成投保。",
+      "conditions": [
+        "指定險種包含汽車或機車強制險加任意險、單筆保費滿800元的旅遊險，或指定屋主住宅火險方案。"
+      ],
+      "sections": [
+        {
+          "heading": "明台官網其他活動",
+          "text": "公告另列11/1至11/30的指定險種滿額及早鳥抽獎，並列有10/1至12/31的新朋友獎。各活動資格及保費門檻請分別查明台活動辦法。"
+        }
+      ]
+    },
+    {
+      "id": "taiwan-mobile-neu-202611",
+      "title": "台灣大哥大｜11月會員與眷屬方案",
+      "category": "生活服務",
+      "date": "2026-11-11",
+      "expiresAt": "2026-11-30",
+      "verifiedAt": "2026-11-12",
+      "validityLabel": "優惠期限至 ",
+      "highlight": "11月企業員工眷方案",
+      "summary": "桃教產與全教產皆公告11月企業員工眷方案，涵蓋4G／5G單門號、手機購機及行動門號搭配家用寬頻。",
+      "eligibility": "符合專案資格的全教產會員及眷屬",
+      "how": "透過原公告確認方案、資格與通路。備妥雙證件及資格證明，眷屬依方案備妥親屬關係證明。",
+      "conditions": [
+        "本批DM標示11/2至11/30。新申辦或攜碼依各方案指定通路，部分開放 myfone 直營門市。",
+        "4G大四喜限企客網路門市，24個月方案月付199元起，599元方案為上網吃到飽不限速。",
+        "5G榮耀之星單門號為24個月方案，月付599元起，599元方案有續約限制。",
+        "好速成雙為行動門號搭配家用網路，月付999元起，寬頻需符合供裝區域。",
+        "指定手機與資費搭配可享購機折價，實際資費、資格、綁約及折抵依當期DM。"
+      ],
+      "sources": [
+        {
+          "label": "全教產11月福利公告",
+          "url": "https://www.neu.org.tw/article_detail/34"
+        },
+        {
+          "label": "全教產電信福利列表",
+          "url": "https://www.neu.org.tw/article/22/1"
+        },
+        {
+          "label": "桃教產特約公告",
+          "url": "https://teu.org.tw/welfare_detail.php?welfare_id=140"
+        },
+        {
+          "label": "桃教產公告的11月企業專案DM",
+          "url": "https://twm5g.co/23fNSN"
+        }
+      ]
+    },
+    {
+      "id": "everfun-travel-neu",
+      "title": "長汎假期｜全教產特約",
+      "category": "旅遊",
+      "date": "2026-11-04",
+      "expiresAt": "2027-12-31",
+      "verifiedAt": "2026-11-12",
+      "validityLabel": "優惠期限至 ",
+      "highlight": "指定團體旅遊每人折300–1,000元",
+      "summary": "全教產會員憑會員福利卡，經指定窗口洽詢旅遊行程及相關服務。",
+      "eligibility": "全教產會員、眷屬及親友",
+      "how": "由全教產會員持福利卡向原公告指定窗口洽詢。眷屬、親友由會員代為報名，訂購、取消與確認以書面辦理。",
+      "conditions": [
+        "指定團體旅遊每人折抵：歐洲、美加、紐西蘭各1,000元，澳洲500元，東南亞、東北亞、大陸、港澳各300元。",
+        "折抵限團費售價。稅金、燃油附加費、機場稅、小費、簽證、護照新辦及機場接送等費用不列入折抵。",
+        "行銷特惠案、團體自由行、清艙特價團及專案團體等不適用。個人自由行及機票優惠依個別報價。",
+        "立榮假期、長榮假期折扣碼各限300組，適用官網線上預訂的即訂即開商品。折扣碼可查各工會的原公告，公告列至2027年底，並須每年確認。",
+        "參加團體行程須另簽旅遊定型化契約。"
+      ],
+      "sources": [
+        {
+          "label": "全教產福利原始公告",
+          "url": "https://www.neu.org.tw/article_detail/689"
+        }
+      ]
+    },
+    {
+      "id": "siquick-neu",
+      "title": "食嗑有你",
+      "category": "餐飲",
+      "date": "2026-10-30",
+      "expiresAt": "2027-12-31",
+      "verifiedAt": "2026-11-12",
+      "validityLabel": "優惠期限至 ",
+      "highlight": "官網88折・滿2,500元免運",
+      "summary": "全教產會員在食嗑有你官網使用會員折扣碼享88折，滿2,500元免運。",
+      "eligibility": "全教產會員",
+      "how": "從全教產原公告查閱會員折扣碼，到品牌官網下單時使用。",
+      "conditions": [
+        "優惠限品牌官網消費。"
+      ],
+      "sources": [
+        {
+          "label": "全教產福利原始公告",
+          "url": "https://www.neu.org.tw/article_detail/687"
+        }
+      ]
+    },
+    {
+      "id": "great-tree-group-buy-neu-2026-q4",
+      "title": "大樹藥局團購網｜全教產10–12月優惠",
+      "category": "生活服務",
+      "date": "2026-10-14",
+      "expiresAt": "2026-12-31",
+      "verifiedAt": "2026-11-12",
+      "validityLabel": "優惠期限至 ",
+      "highlight": "10–12月企業團購",
+      "summary": "全教產會員可透過大樹特約好配芳查看企業團購優惠。",
+      "eligibility": "全教產會員",
+      "how": "從全教產原公告加入好配芳官方LINE，依原公告輸入特約關鍵字及上傳會員福利卡照片，或依公告進入本期企業團購通道。",
+      "conditions": [
+        "本期團購專屬通道可免登入、免註冊選購。",
+        "門市優惠另見全教產公告。"
+      ],
+      "sources": [
+        {
+          "label": "全教產福利原始公告",
+          "url": "https://www.neu.org.tw/article_detail/309"
+        },
+        {
+          "label": "全教產其他福利列表",
+          "url": "https://www.neu.org.tw/article/19/1"
+        }
+      ]
+    },
+    {
+      "id": "chinhuajiao-tainan-shinkong-neu",
+      "title": "青花驕｜台南新光新天地店",
+      "category": "餐飲",
+      "date": "2026-10-12",
+      "expiresAt": "2027-12-31",
+      "verifiedAt": "2026-11-12",
+      "validityLabel": "優惠期限至 ",
+      "highlight": "點套餐贈牛培根",
+      "summary": "全教產會員憑卡於台南新光新天地店內用套餐，贈牛培根一份。",
+      "eligibility": "全教產會員",
+      "how": "點餐時出示全教產會員福利卡。",
+      "conditions": [
+        "每桌每次消費限兌換一份，服務費10%另計。",
+        "不得與店內其他活動併用。外帶、外送、單點及禮券購買或支付均不適用，亦不可兌現或找零。",
+        "贈品以現場供應為準，數量有限時得以等值品替換。"
+      ],
+      "sources": [
+        {
+          "label": "全教產福利原始公告",
+          "url": "https://www.neu.org.tw/article_detail/683"
+        }
+      ]
+    },
+    {
+      "id": "chinhuajiao-zhubei-guangming-neu",
+      "title": "青花驕｜竹北光明店",
+      "category": "餐飲",
+      "date": "2026-10-08",
+      "expiresAt": "2027-12-31",
+      "verifiedAt": "2026-11-12",
+      "validityLabel": "優惠期限至 ",
+      "highlight": "點套餐贈牛培根",
+      "summary": "全教產會員憑卡於竹北光明店內用套餐，贈牛培根一份。",
+      "eligibility": "全教產會員",
+      "how": "點餐時出示全教產會員福利卡。",
+      "conditions": [
+        "每桌每次消費限兌換一份，服務費10%另計。",
+        "不得與店內其他活動併用。外帶、外送、單點及禮券購買或支付均不適用，亦不可兌現或找零。",
+        "贈品以現場供應為準，數量有限時得以等值品替換。"
+      ],
+      "sources": [
+        {
+          "label": "全教產福利原始公告",
+          "url": "https://www.neu.org.tw/article_detail/682"
+        }
+      ]
+    },
+    {
+      "id": "chinhuajiao-taichung-chongde-neu",
+      "title": "青花驕｜台中崇德店",
+      "category": "餐飲",
+      "date": "2026-10-08",
+      "expiresAt": "2028-12-31",
+      "verifiedAt": "2026-11-12",
+      "validityLabel": "優惠期限至 ",
+      "highlight": "點套餐贈牛培根或豬梅花",
+      "summary": "全教產會員憑卡於台中崇德店內用套餐，贈牛培根或豬梅花一份。",
+      "eligibility": "全教產會員",
+      "how": "點餐時出示全教產會員福利卡。",
+      "conditions": [
+        "每桌每次消費限兌換一份，服務費10%另計。",
+        "不得與店內其他活動併用。外帶、外送、單點及禮券購買或支付均不適用，亦不可兌現或找零。",
+        "贈品以現場供應為準，數量有限時得以等值品替換。"
+      ],
+      "sources": [
+        {
+          "label": "全教產福利原始公告",
+          "url": "https://www.neu.org.tw/article_detail/675"
+        }
+      ]
+    },
+    {
+      "id": "eijiro-penghu-magong-neu",
+      "title": "栄次郎個人燒肉｜澎湖馬公店",
+      "category": "餐飲",
+      "date": "2026-10-07",
+      "expiresAt": "2027-12-31",
+      "verifiedAt": "2026-11-12",
+      "validityLabel": "優惠期限至 ",
+      "highlight": "憑卡9折",
+      "summary": "全教產會員持會員福利卡至澎湖馬公店消費享9折。",
+      "eligibility": "全教產會員",
+      "how": "消費時出示全教產會員福利卡。",
+      "conditions": [
+        "適用澎湖馬公店。"
+      ],
+      "sources": [
+        {
+          "label": "全教產福利原始公告",
+          "url": "https://www.neu.org.tw/article_detail/679"
+        }
+      ]
+    },
+    {
       "id": "eztravel-member-day-20261015",
       "title": "易遊網企業會員日｜2026年10月15日",
       "category": "旅遊",
@@ -1020,25 +1577,28 @@
     },
     {
       "id": "taiwan-mobile",
-      "title": "台灣大哥大",
+      "title": "台灣大哥大｜桃教產特約",
       "category": "生活服務",
-      "date": "2026-10-07",
-      "highlight": "10月會員、眷屬方案",
-      "summary": "工會公告10月會員及眷屬優惠方案，詳細資費請查原始頁。",
+      "date": "2026-11-12",
+      "highlight": "會員與眷屬企業優惠",
+      "summary": "桃教產公告會員及眷屬適用的電信特約，個別方案依當期專案辦理。",
       "eligibility": "會員及眷屬；詳細資格依原方案",
-      "how": "先閱讀原始方案，確認資費、合約與所需證明。",
+      "how": "由桃教產特約公告查閱當期方案、申辦資格與所需證件。",
       "conditions": [
-        "申辦前請確認所選資費、綁約期間、提前解約條件及會員或眷屬所需證明。",
-        "特約契約期限不等同個別門號的綁約期限；10月方案內容請看工會原始頁。"
+        "特約契約期限至2026/12/31。11月企業員工眷專案申辦至11/30，方案內容可在福利區搜尋「台灣大哥大」。"
       ],
       "sources": [
         {
-          "label": "台灣大哥大工會優惠資訊",
+          "label": "桃教產特約公告",
           "url": "https://teu.org.tw/welfare_detail.php?welfare_id=140"
+        },
+        {
+          "label": "11月企業員工眷方案（本站）",
+          "url": "https://raychou0830.github.io/fufeng-union-info/#/benefit/taiwan-mobile-neu-202611"
         }
       ],
       "expiresAt": "2026-12-31",
-      "verifiedAt": "2026-10-15",
+      "verifiedAt": "2026-11-12",
       "validityLabel": "契約期限至 "
     },
     {
