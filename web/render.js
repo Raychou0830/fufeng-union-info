@@ -22,7 +22,7 @@ const shortNewsTitle = p=>p.id==='dismissal-rules-update'?'解聘與考核辦法
 export function renderHome(data,now=new Date()) {
   const p=data.posts.find(p=>p.id===data.site.featuredPost)||data.posts[0];
   const event=data.events.filter(ev=>!eventState(ev,now).archive).sort((a,b)=>a.date.localeCompare(b.date))[0];
-  const benefits=data.benefits.filter(b=>!benefitState(b,now).archive).slice(0,2);
+  const benefits=data.benefits.filter(b=>!benefitState(b,now).archive).slice(0,6);
   const headline=p.id==='offline-rights-draft'?'教師離線權：<br>先看四個重點':e(p.title);
   const eventLabel=event?eventState(event,now).label:'';
   return `<div class="home"><article class="lead home-lead" data-tone="news"><h1 class="sr-only">近期重點與會員資訊</h1><h2>${headline}</h2><p class="lead-meta">${displayDate(p.date).slice(5)} ${e(p.statusLabel)}</p><p class="lead-summary">${e(p.summary)}</p><p class="lead-relevance">${e(p.relevance)}</p><a class="button" href="#/read/${e(p.id)}">閱讀重點 ${icon('chevron')}</a></article>
@@ -39,7 +39,7 @@ const empty = (title='沒有符合的資訊',body='試試其他關鍵字，或�
 const dateLine = (date,label='來源公告')=>`<p class="metadata">${label} <time datetime="${e(date)}">${displayDate(date)}</time></p>`;
 const postRow = p=>`<article class="list-row" data-tone="${p.type==='document'?'neutral':'news'}"><div><h2><a href="#/read/${e(p.id)}">${e(p.title)}</a></h2>${dateLine(p.date)}<p>${e(p.summary)}</p><p class="state">${e(p.statusLabel)}</p></div><a class="row-arrow" href="#/read/${e(p.id)}" aria-label="閱讀：${e(p.title)}">${icon('chevron')}</a></article>`;
 export function homeMore(data,now=new Date()) {
-  const list=data.posts.filter(p=>p.id!==data.site.featuredPost&&p.type!=='document'&&!archivedPost(p,now)).sort((a,b)=>b.date.localeCompare(a.date)).slice(0,1);
+  const list=data.posts.filter(p=>p.id!==data.site.featuredPost&&p.type!=='document'&&!archivedPost(p,now)).sort((a,b)=>b.date.localeCompare(a.date)).slice(0,3);
   return `<section class="home-section home-news" data-tone="news" aria-labelledby="news-title"><div class="section-heading"><h2 id="news-title"><a href="#/news">新聞</a></h2></div>${list.map(p=>`<a class="home-news-row" href="#/read/${e(p.id)}"><div><h3>${e(shortNewsTitle(p))}</h3><p>${displayDate(p.date).slice(5)} ｜ ${e(p.statusLabel)}</p></div>${icon('chevron')}</a>`).join('')}</section>${footer()}`;
 }
 const sections = list => (list||[]).map(s=>`<section class="article-section"><h2>${e(s.heading)}</h2><p>${e(s.text)}</p></section>`).join('');
